@@ -1,0 +1,36 @@
+html {
+  font-family: "Inter", serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 35px;
+  margin: 0;
+  line-height: 1;
+}
+
+a{
+  color:#4E80EE;
+  text-decoration: none;
+}
+
+.hero-container {
+  background-color: transparent;
+  padding: 30px 24px;
+  text-align: center;
+}
+
+
+@media (min-width: 768px) {
+  .faqs-section-container{
+      padding: 34px 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .faq-item-container{
+      margin: 0 auto;
+      max-width: 640px;
+  }
+}
